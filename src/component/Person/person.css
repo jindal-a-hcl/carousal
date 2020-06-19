@@ -1,0 +1,10 @@
+    .person {
+        border-width: 2px;
+        border-color: green !important;
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        margin: 20px;
+        border: seashell solid;
+    }
+   

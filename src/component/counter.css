@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    background-color: orange;
+}
+
+.custom {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    flex: 1 1;
+    background-color: hotpink;
+}

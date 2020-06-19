@@ -1,0 +1,173 @@
+body {
+  font-family: sans-serif;
+}
+/* Header */
+.bg-blue {
+  background-color:#0096a2!important
+}
+nav.navbar {
+  padding: 0 1rem;
+}
+.title {
+  padding: 0 15px;
+}
+
+.fas.fa-search{
+  margin-left: 3px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,.8);
+}
+/* End Header */
+/* Navigation Bar */
+.main-navigation {
+  margin-top: 66px;
+  text-align: center;
+  background-color: #20415b;
+}
+.main-navigation ul, .footer-navigation ul {
+  margin-bottom: 0;
+  
+}
+.main-navigation ul li {
+
+  padding: 10px;
+}
+.footer-navigation ul li {
+
+  padding: 10px 1px;
+}
+.main-navigation ul li.active {
+  background-color: #0371b4;
+}
+
+.main-navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+.footer-navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 1px;
+}
+
+/* End Navigation Bar */
+
+/* Banner */
+.banner{
+  position: relative;
+}
+.content {
+  height: auto;
+  padding: 0 !important;
+  overflow: hidden;
+  
+}
+ol.breadcrumb {
+  background-color: transparent;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+  content: ">"
+}
+
+
+/* End banner */
+
+/* Icon section */
+
+.section {
+  margin-top: 15px;
+}
+.h5 {
+  color: #35536a;
+}
+span.icon {
+  color: #82b3d2;
+}
+.border-right {
+  border-right: 1px solid #deded8 !important;
+}
+.border-left {
+  border-left: 1px solid #deded8 !important;
+}
+.h6{
+  padding-top: 10px;
+}
+/* End Icon Section */
+
+/* help section */
+.brd-none {
+  border: none !important;
+}
+.rounded {
+  border-radius: .25rem!important;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.color-main {
+  color: #555 !important;
+}
+.shadow {
+  box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.1) !important;
+}
+.text-underline-none, .text-underline-none:hover {
+  text-decoration: none;
+}
+.color-gray-dark {
+  color: #777 !important;
+}
+[aria-expanded="true"] .accordion-control-icon i:nth-child(1), [aria-expanded="false"] .accordion-control-icon i:nth-child(2) {
+  display: none;
+}
+[aria-expanded="true"] .accordion-control-icon i:nth-child(2), [aria-expanded="false"] .accordion-control-icon i:nth-child(1) {
+  display: inline;
+}
+.medium {
+  font-size: 90%;
+  font-weight: 400;
+}
+.bg-primary {
+  background-color: #0371b4 !important;
+}
+/* End help section */
+@media (min-width: 0){
+  .mb-20 {
+    margin-bottom: 1.42857rem !important;
+  }
+  .pa-0 {
+    padding: 0 !important;
+  }
+  .pa-30 {
+    padding: 2.14286rem !important;
+  }
+  .py-20 {
+    padding-top: 1.42857rem !important;
+    padding-bottom: 1.42857rem !important;
+  }
+  .px-30 {
+    padding-left: 2.14286rem !important;
+    padding-right: 2.14286rem !important;
+  } 
+
+  .test {
+    display: block;
+  }
+  .test2 {
+    display: hidden;
+  }
+  
+}
